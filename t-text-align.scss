@@ -1,0 +1,57 @@
+/** 
+ * Text alignment
+ */
+
+	.t-text-align-center {
+		text-align: center;
+	}
+
+	.t-text-align-left {
+		text-align: left;
+	}
+
+	.t-text-align-right {
+		text-align: right;
+	}		
+
+/**
+ * Responsive
+ */
+
+	
+	.t-text-align-center-xs {
+		@include media-breakpoint-down(xs) {
+			text-align: center;
+		}
+	}
+
+	.t-text-align-left-xs {
+		@include media-breakpoint-down(xs) {
+			text-align: left;
+		}
+	}
+
+	.t-text-align-right-xs {
+		@include media-breakpoint-down(xs) {
+			text-align: right;
+		}
+	}	
+	
+
+	.t-text-align-center-sm {
+		@include media-breakpoint-down(sm) {
+			text-align: center;
+		}
+	}
+
+	.t-text-align-left-sm {
+		@include media-breakpoint-down(sm) {
+			text-align: left;
+		}
+	}
+
+	.t-text-align-right-sm {
+		@include media-breakpoint-down(sm) {
+			text-align: right;
+		}
+	}	

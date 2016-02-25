@@ -1,0 +1,46 @@
+/**
+ * Removes break (br)
+ */
+
+	.t-remove-break {
+		br {
+			display: none;
+		}
+	}
+
+	/**
+	 * SM down
+	 */
+	
+		.t-remove-break-sm {
+			@include media-breakpoint-down(sm) {
+				br {
+					display: none;
+				}				
+			}
+		}	
+
+
+	/**
+	 * MD down
+	 */
+	
+		.t-remove-break-md {
+			@include media-breakpoint-down(md) {
+				br {
+					display: none;
+				}				
+			}
+		}
+
+	/**
+	 * MD down
+	 */
+	
+		.t-remove-break-lg {
+			@include media-breakpoint-down(lg) {
+				br {
+					display: none;
+				}				
+			}
+		}		

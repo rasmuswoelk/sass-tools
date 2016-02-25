@@ -1,0 +1,30 @@
+/** 
+ * List
+ */
+
+	/**
+	 * Reset
+	 */
+	
+		.t-list--reset {
+			list-style: none;
+			padding-left: 0;
+			margin-bottom: 0;
+		}
+
+	/**
+	 * Margin bottm
+	 */
+	
+		// 15px
+		.t-list--li-mb-15 li {
+			margin-bottom: 15px;
+		}
+
+	/**
+	 * No margin last child
+	 */
+	
+		.t-list--no-margin-last li:last-child {
+			margin-bottom: 0;
+		}

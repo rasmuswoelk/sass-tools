@@ -1,0 +1,145 @@
+/**
+ * Padding in general
+ */
+
+	/**
+	 * No padding
+	 */
+	
+		.t-padding-none {
+			padding: 0 !important;
+		}
+
+		.t-padding-none-top {
+			padding-top: 0 !important;
+		}
+
+		.t-padding-none-bottom {
+			padding-bottom: 0 !important;
+		}
+
+		.t-padding-none-left {
+			padding-left: 0 !important;
+		}
+
+		.t-padding-none-right {
+			padding-right: 0 !important;
+		}						
+
+
+/**
+ * Vertical padding
+ */
+
+	/**
+	 * 40 pixels
+	 */
+		
+		.t-padding-vertical-40 {
+			padding-top: 40px;
+			padding-bottom: 40px;
+		}
+
+		.t-padding-vertical-40-xs {
+			@include media-breakpoint-up(xs) {
+				padding-top: 40px;
+				padding-bottom: 40px;			
+			}
+		}
+
+		.t-padding-vertical-40-sm {
+			@include media-breakpoint-up(sm) {
+				padding-top: 40px;
+				padding-bottom: 40px;			
+			}
+		}	
+
+		.t-padding-vertical-40-md {
+			@include media-breakpoint-up(md) {
+				padding-top: 40px;
+				padding-bottom: 40px;			
+			}
+		}		
+
+		.t-padding-vertical-40-lg {
+			@include media-breakpoint-up(lg) {
+				padding-top: 40px;
+				padding-bottom: 40px;			
+			}
+		}
+
+
+	/**
+	 * 60 pixels
+	 */
+		
+		.t-padding-vertical-60 {
+			padding-top: 60px;
+			padding-bottom: 60px;
+		}
+
+		.t-padding-vertical-60-xs {
+			@include media-breakpoint-up(xs) {
+				padding-top: 60px;
+				padding-bottom: 60px;			
+			}
+		}
+
+		.t-padding-vertical-60-sm {
+			@include media-breakpoint-up(sm) {
+				padding-top: 60px;
+				padding-bottom: 60px;			
+			}
+		}	
+
+		.t-padding-vertical-60-md {
+			@include media-breakpoint-up(md) {
+				padding-top: 60px;
+				padding-bottom: 60px;			
+			}
+		}		
+
+		.t-padding-vertical-60-lg {
+			@include media-breakpoint-up(lg) {
+				padding-top: 60px;
+				padding-bottom: 60px;			
+			}
+		}
+
+
+	/**
+	 * 100 pixels
+	 */
+	
+		.t-padding-vertical-100 {
+			padding-top: 100px;
+			padding-bottom: 100px;
+		}
+
+		.t-padding-vertical-100-xs {
+			@include media-breakpoint-up(xs) {
+				padding-top: 100px;
+				padding-bottom: 100px;			
+			}
+		}
+
+		.t-padding-vertical-100-sm {
+			@include media-breakpoint-up(sm) {
+				padding-top: 100px;
+				padding-bottom: 100px;			
+			}
+		}	
+
+		.t-padding-vertical-100-md {
+			@include media-breakpoint-up(md) {
+				padding-top: 100px;
+				padding-bottom: 100px;			
+			}
+		}		
+
+		.t-padding-vertical-100-lg {
+			@include media-breakpoint-up(lg) {
+				padding-top: 100px;
+				padding-bottom: 100px;			
+			}
+		}		

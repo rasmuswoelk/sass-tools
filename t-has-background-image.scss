@@ -1,0 +1,14 @@
+/**
+ * Tool: Background image
+ */
+
+	.t-has-background-image {
+		background-position-x: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: 50% 50%;	
+
+		&.t-has-background-image--fixed {
+			background-attachment: fixed;
+		}
+	}
